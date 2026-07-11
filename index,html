@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Resenha do Grupo Telegram - Pousada em Xerém</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#0b0b0b;
+    color:#fff;
+}
+
+header img{
+    width:100%;
+    display:block;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:25px;
+}
+
+.titulo{
+    text-align:center;
+    color:#ffb300;
+    font-size:40px;
+    margin-bottom:25px;
+}
+
+.info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-bottom:35px;
+}
+
+.info div{
+    background:#1b1b1b;
+    border:2px solid #ffb300;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+}
+
+.info h2{
+    color:#ffb300;
+    margin-bottom:10px;
+}
+
+.entrada{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card{
+    padding:25px;
+    border-radius:15px;
+}
+
+.solteiros{
+    background:#004f9f;
+}
+
+.casais{
+    background:#15803d;
+}
+
+.solteiras{
+    background:#b00063;
+}
+
+.card h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.card ul{
+    padding-left:20px;
+}
+
+.card li{
+    margin:15px 0;
+    line-height:1.5;
+}
+
+.botoes{
+    text-align:center;
+    margin-top:50px;
+}
+
+.botao{
+    display:inline-block;
+    margin:10px;
+    padding:18px 35px;
+    text-decoration:none;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.doacao{
+    background:#ffb300;
+    color:#000;
+}
+
+.telegram{
+    background:#229ED9;
+}
+
+.botao:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    margin-top:40px;
+    text-align:center;
+    padding:35px;
+    background:#000;
+}
+
+footer h2{
+    color:#ffb300;
+    margin-bottom:15px;
+}
+
+footer p{
+    font-size:18px;
+}
+
+@media(max-width:700px){
+
+.titulo{
+font-size:28px;
+}
+
+.botao{
+display:block;
+margin:15px auto;
+width:90%;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="IMG-20260711-WA0008.jpg" alt="Resenha do Grupo Telegram">
+
+</header>
+
+<div class="container">
+
+<h1 class="titulo">
+🎉 Resenha do Grupo Telegram
+</h1>
+
+<div class="info">
+
+<div>
+<h2>📅 Data</h2>
+<p><strong>08 de Agosto de 2026</strong></p>
+<p>Sábado</p>
+</div>
+
+<div>
+<h2>🕑 Horário</h2>
+<p><strong>14h às 22h</strong></p>
+</div>
+
+<div>
+<h2>📍 Local</h2>
+<p><strong>Pousada em Xerém</strong></p>
+<p>Rio de Janeiro</p>
+</div>
+
+</div>
+
+<div class="entrada">
+
+<div class="card solteiros">
+
+<h2>👤 Solteiros</h2>
+
+<ul>
+<li>✅ Levar <strong>1 kg de carne</strong>.</li>
+
+<li>✅ 1 caixa de cerveja (para quem bebe) ou refrigerante.</li>
+
+<li>✅ Fazer a doação pelo link da vaquinha (mínimo de <strong>R$ 5,00</strong>).</li>
+
+<li>✅ Guardar o comprovante para apresentar na entrada.</li>
+
+</ul>
+
+</div>
+
+<div class="card casais">
+
+<h2>👫 Casais</h2>
+
+<ul>
+
+<li>✅ Levar 1 kg de carne.</li>
+
+<li>✅ 1 caixa de cerveja ou refrigerante.</li>
+
+<li>✅ Doação mínima de R$ 5,00.</li>
+
+<li>✅ Apresentar o comprovante da doação.</li>
+
+</ul>
+
+</div>
+
+<div class="card solteiras">
+
+<h2>👩 Solteiras</h2>
+
+<ul>
+
+<li>✅ Apenas apresentar o comprovante da doação (mínimo de <strong>R$ 5,00</strong>) para entrada.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="botoes">
+
+<a href="https://vaquinha.livepix.gg/Grupo3par"
+target="_blank"
+class="botao doacao">
+
+💛 FAZER DOAÇÃO
+
+</a>
+
+<a href="https://t.me/GamoraVipBot"
+target="_blank"
+class="botao telegram">
+
+📲 ENTRAR NO TELEGRAM
+
+</a>
+
+</div>
+
+</div>
+
+<footer>
+
+<h2>🎊 Esperamos todos para uma tarde de muita diversão, respeito e boa convivência!</h2>
+
+<p>Contamos com a colaboração de todos.</p>
+
+</footer>
+
+</body>
+</html>
